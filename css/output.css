@@ -236,9 +236,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .bg-gray-50 {
-    background-color: var(--color-gray-50);
-  }
   .bg-gray-500 {
     background-color: var(--color-gray-500);
   }
