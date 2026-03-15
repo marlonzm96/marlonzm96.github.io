@@ -1,0 +1,76 @@
+<!--
+==================================================
+GIT WORKFLOW
+==================================================
+-->
+
+<!-- 
+git status
+
+returns a status of what is or isnt pushed (aka "tracked" or untracked)
+-->
+
+
+<!--
+PUSHING CHANGES TO GITHUB
+
+git add .
+Stages all changed files.
+
+git commit -m "message"
+Creates a checkpoint in project history.
+
+git push
+Uploads changes to GitHub.
+
+Typical workflow:
+1. Edit files
+2. git add .
+3. git commit -m "describe change"
+4. git push
+-->
+
+
+
+<!--
+==================================================
+TAILWIND DEVELOPMENT COMMANDS
+==================================================
+-->
+
+<!--
+TAILWIND CLI COMMAND
+
+Command:
+npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
+
+Purpose:
+Runs Tailwind locally and generates the CSS file used by the site.
+
+Breakdown:
+
+npx
+Runs a package without installing it globally.
+
+@tailwindcss/cli
+The Tailwind command line interface package.
+
+-i ./css/input.css
+"Input file"
+This is the CSS file that imports Tailwind.
+
+-o ./css/output.css
+"Output file"
+Tailwind generates the final compiled CSS here.
+
+--watch
+Keeps the process running and rebuilds CSS automatically
+whenever HTML or CSS files change.
+
+When to use it:
+Run this command while developing so Tailwind updates styles
+automatically as you edit files.
+
+How to stop it:
+Press Ctrl + C in the terminal.
+-->
