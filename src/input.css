@@ -1,2 +1,38 @@
 @import "tailwindcss";
 
+@theme {
+    /* --- REMAP THE BASE PALETTE --- */   
+    --color-gray-50: #FAFAFA;
+    --color-gray-100: #F5F5F5;
+    --color-gray-200: #EBEBEB;
+    --color-gray-600: #757575;
+    --color-gray-900: #111111;
+
+    --color-blue-50: #FAFCFE;
+    --color-blue-100: #F5F9FD;
+    --color-blue-200: #EBF3FA;
+    --color-blue-600: #056FC6;
+    --color-blue-900: #04599F;
+}
+
+
+
+
+
+/* Bundling link styles into one class */
+
+.link-primary-sm {
+  @apply text-blue-600 text-base transition-all duration-200;
+  @apply hover:text-gray-900 hover:underline underline-offset-4;
+}
+
+.link-secondary-sm {
+  @apply text-gray-900 text-base transition-all duration-200;
+  @apply hover:text-blue-600 hover:underline underline-offset-4;
+}
+
+.link-bold-sm {
+  @apply text-gray-900 text-base transition-all duration-200;
+  @apply hover:text-blue-600 hover:underline underline-offset-4;
+}
+
